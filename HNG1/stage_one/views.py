@@ -68,7 +68,7 @@ def get_user_info(request):
     # Getting GitHub URL of the file being run
     github_file_url = 'https://github.com/Officialbabs/learning_with_HNG/blob/main/myproject/myapp/views.py'  
     # Getting GitHub URL of the full source code
-    github_source_url = 'https://github.com/Officialbabs/learning_with_HNG'
+    github_source_url = 'https://github.com/Edcology/HNG/tree/main'
     # The response JSON
     request = {
         'slack_name': user_name,
